@@ -1,52 +1,150 @@
 {
-    "libraryName": "Downtown Public Library",
-    "location": "123 Main Street, Anytown, USA",
-    "books": [
-      {
-        "id": 1,
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "isbn": "9780061120084",
-        "genre": "Fiction",
-        "publicationYear": 1960,
-        "available": true
-      },
-      {
-        "id": 2,
-        "title": "1984",
-        "author": "George Orwell",
-        "isbn": "9780451524935",
-        "genre": "Dystopian",
-        "publicationYear": 1949,
-        "available": false
-      },
-      {
-        "id": 3,
-        "title": "A Brief History of Time",
-        "author": "Stephen Hawking",
-        "isbn": "9780553380163",
-        "genre": "Science",
-        "publicationYear": 1988,
-        "available": true
-      },
-      {
-        "id": 4,
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "isbn": "9780743273565",
-        "genre": "Classic",
-        "publicationYear": 1925,
-        "available": true
-      },
-      {
-        "id": 5,
-        "title": "The Catcher in the Rye",
-        "author": "J.D. Salinger",
-        "isbn": "9780316769488",
-        "genre": "Coming-of-age",
-        "publicationYear": 1951,
-        "available": false
-      }
-    ]
-  }
-  
+  "libraryName": "Downtown Public Library",
+  "location": "123 Main Street, Anytown, USA",
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "9780061120084",
+      "genre": "Fiction",
+      "publicationYear": 1960,
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451524935",
+      "genre": "Dystopian",
+      "publicationYear": 1949,
+      "available": false
+    },
+    {
+      "id": 3,
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "isbn": "9780553380163",
+      "genre": "Science",
+      "publicationYear": 1988,
+      "available": true
+    },
+    {
+      "id": 4,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "9780743273565",
+      "genre": "Classic",
+      "publicationYear": 1925,
+      "available": true
+    },
+    {
+      "id": 5,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isbn": "9780316769488",
+      "genre": "Coming-of-age",
+      "publicationYear": 1951,
+      "available": false
+    },
+    {
+      "id": 6,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isbn": "9780141439518",
+      "genre": "Romance",
+      "publicationYear": 1813,
+      "available": true
+    },
+    {
+      "id": 7,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isbn": "9780547928227",
+      "genre": "Fantasy",
+      "publicationYear": 1937,
+      "available": true
+    },
+    {
+      "id": 8,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "isbn": "9781451673319",
+      "genre": "Dystopian",
+      "publicationYear": 1953,
+      "available": false
+    },
+    {
+      "id": 9,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "isbn": "9780307387899",
+      "genre": "Post-apocalyptic",
+      "publicationYear": 2006,
+      "available": true
+    },
+    {
+      "id": 10,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isbn": "9780060850524",
+      "genre": "Science Fiction",
+      "publicationYear": 1932,
+      "available": true
+    },
+    {
+      "id": 11,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "isbn": "9780061122415",
+      "genre": "Adventure",
+      "publicationYear": 1988,
+      "available": false
+    },
+    {
+      "id": 12,
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "isbn": "9780062316097",
+      "genre": "History",
+      "publicationYear": 2011,
+      "available": true
+    },
+    {
+      "id": 13,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "isbn": "9780142437209",
+      "genre": "Classic",
+      "publicationYear": 1847,
+      "available": false
+    },
+    {
+      "id": 14,
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "isbn": "9780375842207",
+      "genre": "Historical Fiction",
+      "publicationYear": 2005,
+      "available": true
+    },
+    {
+      "id": 15,
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "isbn": "9780553418026",
+      "genre": "Science Fiction",
+      "publicationYear": 2011,
+      "available": true
+    },
+    {
+      "id": 16,
+      "title": "20,000 Leagues Under the Sea",
+      "author": "Jules Verne",
+      "isbn": "9780451531698",
+      "genre": "Adventure",
+      "publicationYear": 1870,
+      "available": true
+    }
+  ]
+}

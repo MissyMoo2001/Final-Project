@@ -1,0 +1,28 @@
+.card {
+    margin: 1rem;
+    width: 18rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+
+}
+.card-body {
+    font-family: Georgia, serif;
+    background-color:rgba(237, 237, 237, 0.521);
+}
+
+.card-header {
+    background-color: rgba(211, 211, 211, 0.532);
+}
+
+body {
+    background-color:rgba(0, 208, 255, 0.26);
+    font-family: Georgia, serif;
+}
+
+.list-group-item {
+    background-color: rgba(211, 211, 211, 0.532);
+    border: 1px solid #ccc;
+}
