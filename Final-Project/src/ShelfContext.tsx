@@ -1,6 +1,8 @@
 import { createContext, useContext, useState } from "react"
 import type { ReactNode } from "react"
 
+// seperate page to hold any saved data from the shelf page
+
 type Book = {
   id: number
   title: string
@@ -22,6 +24,7 @@ const ShelfContext = createContext<ShelfContextType | undefined>(undefined)
 export const ShelfProvider = ({ children }: { children: ReactNode }) => {
   const [shelf, setShelf] = useState<Book[]>([])
 
+  // function to collect data when book is added
   const addToShelf = (book: Book) => {
     setShelf(prev => {
       if (!prev.find(b => b.id === book.id)) {
@@ -31,6 +34,7 @@ export const ShelfProvider = ({ children }: { children: ReactNode }) => {
     })
   }
 
+  // function to remove data when book is removed
   const removeFromShelf = (id: number) => {
     setShelf(prev => prev.filter(book => book.id !== id))
   }

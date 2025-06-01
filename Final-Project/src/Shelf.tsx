@@ -1,5 +1,6 @@
 import { useShelf } from "./ShelfContext"
 
+// function to remove a book from the shelf
 export default function Shelf() {
   const { shelf, removeFromShelf } = useShelf()
 
@@ -12,6 +13,7 @@ export default function Shelf() {
         <div className="d-flex flex-wrap gap-3">
           {shelf.map(Book => (
             <div key={Book.id} className="card flex-grow-1" style={{ width: "18rem" }}>
+              {/* shows all the same book data as the main library */}
               <div className="card-body">
                 <h3 className="card-title">{Book.title}</h3>
                 <p className="card-text">{Book.author}</p>

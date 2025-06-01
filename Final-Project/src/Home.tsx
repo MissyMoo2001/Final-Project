@@ -6,19 +6,18 @@ const Home: React.FC = () => {
     return(
         <>
         <div>
+        
         <div className="row mb-4">
             <div className="col-lg">
                 <div className="card w-100 flex-row align-items-center p-0">
-          {/* Text content on the left */}
                 <div className="card-body text-start">
                     <h5 className="card-title">Check out my personal library</h5>
                     <p className="card-text">
                     Click this link below to see some of my personal favorites and recommendations for other avid bookworms!
                     </p>
+                    {/* Connects to page with book api */}
                     <Link to="/Library" className="btn btn-primary">My Personal Library</Link>
                 </div>
-
-          {/* Image on the right */}
                 <img
                     src="https://tse2.mm.bing.net/th?id=OIP.Dsr0yXCHK-6RPFJ5yc9UDgHaHO&pid=Api&P=0&h=180"
                     alt="Library preview"
@@ -28,6 +27,8 @@ const Home: React.FC = () => {
                 </div>
             </div>
         </div>
+
+        {/* div with external links */}
         <div className="row justify-content-center mb-4">
             <div className="col-9">
             <div className="card w-75 text-center p-0">

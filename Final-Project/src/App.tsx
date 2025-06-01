@@ -5,7 +5,7 @@ import Shelf from './Shelf'
 import './App.css'
 import Home from './Home'
 
-
+// routes for pages on the main page, nav is the only one that lives here.
 export default function App() {
   return (
     <>

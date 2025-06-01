@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react"
 import { useShelf } from "./ShelfContext"
 
+// api connection and data structure
 type Book = {
   id: number
   title: string
@@ -12,11 +13,13 @@ type Book = {
   available: boolean
 }
 
+
 export default function Library () {
   const [books, setBooks] = useState<Book[]>( [] )
   const [expandedBookId, setExpandedBookId] = useState<number | null>(null)
   const { addToShelf } = useShelf()
 
+  // function to collect api data
   useEffect(() => {
     const asyncFunction = async () => {
       const response = await fetch("http://localhost:3000/books")
@@ -26,6 +29,7 @@ export default function Library () {
     asyncFunction()
   }, [])
 
+  // function to show all data only when called
   const toggleExpand = (id: number) => {
     setExpandedBookId(prev => (prev === id ? null : id))
   }
@@ -46,7 +50,7 @@ export default function Library () {
                     <p><strong>ISBN:</strong> {Book.isbn}</p>
                     <p><strong>Genre:</strong> {Book.genre}</p>
                     <p><strong>Publication Year:</strong> {Book.publicationYear}</p>
-
+                    {/* Button to add a book to a seperate page, button is only visible when available is marked true */}
                     {Book.available ? (
                         <button className="btn btn-success" 
                             onClick= {() => addToShelf(Book)}>Add to Shelf</button>) : (
